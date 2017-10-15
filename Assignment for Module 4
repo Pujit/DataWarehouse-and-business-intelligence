@@ -1,0 +1,16 @@
+Assignment for Module 4
+The graded problems in Module 4 involve SELECT statements for single table problems with conditions, joins with two tables, and row summaries involving single tables. You should execute the statements using either Oracle or MySQL.
+To facilitate grading, please number the SQL statements and format them neatly. You need to show the result tables. Indicate in the beginning of your document if you used Oracle or MySQL.
+1. Basic SELECT Statement Requirements
+
+1.	List the city, state, and zip codes in the customer table.  Your result should not have duplicates. (Hint: The DISTINCT keyword eliminates duplicates.)
+2.	List the name, department, phone number, and email address of employees with a phone number beginning with “3-”.
+3.	List all columns of the resource table with a rate between $10 and $20. Sort the result by rate.
+4.	List the event requests with a status of “Approved” or “Denied” and an authorized date in July 2013. Include the event number, authorization date, and status in the output. (Hint: see the examples in Module 4 for date constants in Oracle and MySQL.)
+5.	List the location number and name of locations that are part of the “Basketball arena”.  Your WHERE clause should not have a condition involving the facility number compared to a constant (“F101”). Instead, you should use a condition on the FacName column for the value of “Basketball arena”.
+6.	For each event plan, list the plan number, count of the event plan lines, and sum of the number of resources assigned.  For example, plan number “P100” has 4 lines and 7 resources assigned.  You only need to consider event plans that have at least one line.
+2. Submission
+The submission requirements involve SELECT statements and evidence that you executed the statements in Oracle or MySQL. 
+You will submit 6 documents with each document containing a SELECT statement and screen snapshot to indicate that you executed the statements in Oracle or MySQL. In each document, you should neatly format your SELECT statement so that it can be easily graded.
+You should use the same table and column names as specified in the ICA database background document. You should not put any identifying details about yourself in your submitted document. For the screen snapshot, you need to capture a screen showing most columns and rows of the executed statement.
+
