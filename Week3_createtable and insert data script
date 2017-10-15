@@ -1,4 +1,4 @@
--- create table script
+-- create table script for Oracle db
 
 
 DROP TABLE Enrollment;
